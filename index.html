@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tax Breakdown & Calculator</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>Расчет налогов для транспортного средства в томской области</header>
+
+  <p><img src="img/11.jpg" height="350" > </p>
+
+  <lable>Дата выпуска транспортного средства: </lable>
+  <input type="date" id="releseDate" />
+  <br><br>
+  <lable>Дата регистрации транспортного средства: </lable>
+  <input type="date" id="registrationDate"/>
+  <br><br>
+  <lable>Стоимость(руб): </lable>
+  <input type="number" id="price"/>
+  <br><br>
+  <lable>Мощность двигателя(л.с.): </lable>
+  <input type="number" id="power"/>
+  <br><br>
+  <input type="button" value="Расчитать" id = "calculate" />
+  <br><br>
+  <label>Налоги:</label>
+    <br><br>
+  <textarea name="text" rows="8" cols="50" wrap="soft" id="tax"></textarea>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  font-family: 'David Libre', serif;
+  line-height: 1.25;
+  background-color: #F5F5F5;
+  color: #000000;
+  margin: 50px auto 100px auto;
+  width: 900px;
+}
+
+header {
+  margin: 0 0 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+section {
+  width: 900px;
+  height: 600px;
+  position: relative;
+}
+
+#tax {
+    font-size:12px;
+}
